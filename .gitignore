@@ -1,0 +1,6 @@
+
+radio/radio.cbp
+radio/bin/Debug/radio.exe
+radio/obj/Debug/lib/rs232.o
+radio/obj/Debug/main.o
+radio/radio.depend
