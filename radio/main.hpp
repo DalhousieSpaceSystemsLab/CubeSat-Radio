@@ -7,6 +7,7 @@
 //standard stuff
 #include <iostream>
 #include <fstream>
+#include <string>
 
 //sizes for RS container for 1/2 encoding, and 3/4, 9/10
 #define totalsize 255
@@ -21,3 +22,9 @@
 #else
 #define D(x)
 #endif
+
+
+int readFromFile(char* dest, void* in, int rate);
+
+int transmitRadio(std::string dataString);
+std::string receiveRadio(std::string receiveStr);
