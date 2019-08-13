@@ -26,5 +26,5 @@
 
 int readFromFile(char* dest, void* in, int rate);
 
-int transmitRadio(std::string dataString);
-std::string receiveRadio(std::string receiveStr);
+int transmitRadio(std::vector<char> dataString, int cport_nr);
+std::vector<char> receiveRadio(std::vector<char> receiveStr, int cport_nr, int bdrate, const char* mode);
